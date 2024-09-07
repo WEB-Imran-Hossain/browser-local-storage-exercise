@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .App.light {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .App.dark {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .dark-button {
+    background-color: #444;
+  }
+  
