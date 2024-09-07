@@ -1,20 +1,10 @@
-import LightAndLanguage from './components/LightAndLanguage';
-import Theme from './components/Theme';
-import UserNameStore from './components/UserNameStore';
+import LightAndLanguage from "./components/LightAndLanguage";
 
 function App() {
- 
-
   return (
- <>
-   <UserNameStore />
-   <hr />
-   <hr />
-   <Theme />
-   <hr />
-   <hr />
-   <LightAndLanguage />
-   </>
+    <>
+      <LightAndLanguage />
+    </>
   );
 }
 
